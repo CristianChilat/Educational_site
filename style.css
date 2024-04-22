@@ -1,0 +1,50 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    border-bottom: 1px solid black;
+    display: flex;
+    gap: 4em;
+    margin-bottom: 1em;
+}
+
+header img {
+    height: 100px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #EEEEEE;
+    background-color: rgba(18, 18, 18, 0.76);
+    padding: 1em;
+    border-radius: 5px;
+}
+
+header nav a:hover{
+    background-color: rgba(37, 37, 37, 0.76);
+}
+
+main {
+    background-color: #EEEEEE;
+    width: 90%;
+    margin: 0 auto;
+    padding: 1.5em;
+    border-radius: 1em;
+}
+
+footer {
+    background-color: #222222;
+    color: aliceblue;
+    text-align: center;
+    padding: 3em;
+    font-size: 1.2em;
+}
