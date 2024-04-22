@@ -1,13 +1,17 @@
 body {
     padding: 0;
     margin: 0;
+    background: #0e0e0e;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1em;
 }
 
 header {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid whitesmoke;
     display: flex;
     gap: 4em;
     margin-bottom: 1em;
+    background-color: #6a6a6a;
 }
 
 header img {
@@ -29,6 +33,10 @@ header nav a{
     border-radius: 5px;
 }
 
+header nav a.selected{
+    background-color: rgba(62, 62, 62, 0.76);
+}
+
 header nav a:hover{
     background-color: rgba(37, 37, 37, 0.76);
 }
@@ -39,13 +47,14 @@ main {
     margin: 1em auto;
     padding: 1.5em;
     border-radius: 1em;
+    border: 2px solid #808080;
 }
 
 footer {
     background-color: #222222;
     color: aliceblue;
     text-align: center;
-    padding: 3em;
+    padding: 2em;
     font-size: 1.2em;
 }
 
