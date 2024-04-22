@@ -36,7 +36,7 @@ header nav a:hover{
 main {
     background-color: #EEEEEE;
     width: 90%;
-    margin: 0 auto;
+    margin: 1em auto;
     padding: 1.5em;
     border-radius: 1em;
 }
@@ -47,4 +47,10 @@ footer {
     text-align: center;
     padding: 3em;
     font-size: 1.2em;
+}
+
+ol {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-bottom: 2em;
 }
