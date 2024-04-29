@@ -1,7 +1,13 @@
 document.addEventListener('DOMContentLoaded', function(){
-    document.getElementById("finish-test").addEventListener('click', function(){
-        calculateResults();
-    })
+    const finishTestButton = document.getElementById("finish-test");
+    if(finishTestButton !== undefined && finishTestButton !== null) {
+        finishTestButton.addEventListener('click', function(){
+            calculateResults();
+        })
+    }
+
+    showHide('blockIntroduction');
+
 })
 
 function calculateResults (){
@@ -55,6 +61,17 @@ function calculateResults (){
         alert('Răspundeți la toate întrebările!');
     } else {
         alert(`Nota ta este ${correctAnswers * 2}`)
+    }
+
+}
+
+function showHide(id) {
+    const block  = document.getElementById(id);
+    console.log(block.style.display);
+    if(block.style.display === 'none' || block.style.display === '') {
+        block.style.display = 'block';
+    } else {
+        block.style.display = 'none';
     }
 
 }

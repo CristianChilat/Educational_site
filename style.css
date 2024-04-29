@@ -66,3 +66,23 @@ ol {
     border-radius: 5px;
     padding-bottom: 2em;
 }
+
+.blocks {
+    display: none;
+}
+
+h2 {
+    background: rgba(101, 101, 101, 0.19);
+}
+
+h2:before{
+    content: '\21E5 \ ';
+}
+h2:hover  {
+    background-color: rgba(115, 115, 115, 0.44);
+    cursor: pointer;
+}
+
+.show {
+    display: block;
+}
