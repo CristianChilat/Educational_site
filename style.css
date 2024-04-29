@@ -1,17 +1,18 @@
 body {
     padding: 0;
     margin: 0;
-    background: #0e0e0e;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.1em;
+    background: rgb(0,212,255);
+    background: linear-gradient(158deg, rgba(0,212,255,1) 0%, rgba(29,29,162,1) 49%, rgba(20,18,129,1) 75%, rgba(10,0,182,1) 100%);
+    font-size: 1.2em;
 }
 
 header {
-    border-bottom: 1px solid whitesmoke;
+    border-bottom: 2px solid #bcbcbc;
     display: flex;
     gap: 4em;
     margin-bottom: 1em;
-    background-color: #6a6a6a;
+    background: rgb(221,137,27);
+    background: radial-gradient(circle, rgba(221,137,27,1) 7%, rgba(255,195,81,1) 100%);
 }
 
 header img {
@@ -39,15 +40,16 @@ header nav a.selected{
 
 header nav a:hover{
     background-color: rgba(37, 37, 37, 0.76);
+    box-shadow: 10px 5px 5px #a1550f;
 }
 
 main {
-    background-color: #EEEEEE;
-    width: 90%;
-    margin: 1em auto;
+    background-color: rgba(0,0,0,0.30);
+    margin: 1em 3em;
     padding: 1.5em;
     border-radius: 1em;
-    border: 2px solid #808080;
+    border: 2px solid #757575;
+    color: #e1e1e1;
 }
 
 footer {
@@ -56,6 +58,7 @@ footer {
     text-align: center;
     padding: 2em;
     font-size: 1.2em;
+    border-top: 2px solid #757575;
 }
 
 ol {
